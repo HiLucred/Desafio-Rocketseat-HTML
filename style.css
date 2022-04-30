@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(53, 53, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(189, 189, 189);
+}
+
+.conteudo {
+    width: 600px;
+    height: 520px;
+    margin: 50px auto;
+    border: 2px dashed rgb(178, 29, 236);
+    background-clip: content-box;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.titulo {
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(20, 20, 20);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    text-align: center;
+    color: rgb(128, 51, 201);
+    line-height: 15px;
+}
+
+.titulo h2{
+    color: rgb(151, 151, 151);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.infos {
+    padding: 10px;
+    background-color: aliceblue;
+
+    text-align: center;
+}
+
+.infos li{
+    list-style: none;
+}
+
+.paginas-desafios {
+    background-color: aliceblue;
+
+    text-align: center;
+    padding-bottom: 10px;
+}
